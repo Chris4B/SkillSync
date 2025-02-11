@@ -1,4 +1,5 @@
 from app.database.db import engine, Base
+from app.models.cv import CV  # Importer le modèle CV
 
 def init_db():
     """Création des tables dans la base de données."""
